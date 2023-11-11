@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "d7dcdf8f-371f-49f7-9237-97370d0b9ed8",
+		"name": "NTTData Punto2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11560454",
+		"_collection_link": "https://lively-resonance-280570.postman.co/workspace/Team-Workspace~6d6955c2-1d19-4746-8d86-9dda150afe51/collection/11560454-d7dcdf8f-371f-49f7-9237-97370d0b9ed8?action=share&source=collection_link&creator=11560454"
+	},
+	"item": [
+		{
+			"name": "GREETING",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/hola",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"hola"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CUSTUMERS",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"name-edit\",\n    \"email\":\"email-edit\",\n    \"password\":\"password-edit\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/factorial/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"factorial",
+						"9"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
